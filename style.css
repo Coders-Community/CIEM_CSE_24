@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(my_img/CALCUTTA\ INSTITUTE\ OF\ ENGINEERING\ &\ MANAGEMENT.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+nav{
+    display:flex;
+    padding: 2% 4%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav img{
+    width: 140px;
+
+}
+.navbar{
+    flex: 1;
+    text-align: right;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 13px;
+}
+.navbar li a:hover{
+    background-color: red;
+}
+.textbox{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
