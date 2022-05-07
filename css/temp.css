@@ -1,0 +1,28 @@
+.navbar{
+    background-color: black;
+    border-radius: 40px;
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    color: aliceblue;
+    margin: 1px 30px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.navbar li a:hover{
+    color: aquamarine;
+}
+
+.login{
+    float: right;
+}
